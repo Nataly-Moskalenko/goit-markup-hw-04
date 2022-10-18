@@ -406,6 +406,16 @@ p {
   fill: var(--icon-color);
 }
 
+.logo1:hover,
+.logo2:hover,
+.logo3:hover,
+.logo4:hover,
+.logo5:hover,
+.logo6:hover {
+  fill: var(--accent-color);
+  border: 1px solid var(--accent-color);
+}
+
 /* Підвал сторінки */
 .footer .container {
   display: flex;
