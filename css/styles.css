@@ -165,10 +165,10 @@ p {
   fill: var(--text-dark-color);
 }
 
-.envelope:hover,
-.envelope:focus,
-.smartphone:hover,
-.smartphone:focus {
+.address-header:hover .envelope,
+.address-header:focus .envelope,
+.address-header:hover .smartphone,
+.address-header:focus .smartphone {
   fill: var(--accent-color);
 }
 
