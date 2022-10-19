@@ -146,6 +146,8 @@ p {
 
 .address-header {
   color: var(--text-dark-color);
+  display: inline-flex;
+  vertical-align: middle;
 }
 
 .active,
@@ -161,7 +163,6 @@ p {
 .smartphone {
   margin-right: 10px;
   fill: var(--text-dark-color);
-  vertical-align: middle;
 }
 
 .envelope:hover,
