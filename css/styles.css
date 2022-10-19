@@ -161,14 +161,7 @@ p {
 .smartphone {
   margin-right: 10px;
   fill: var(--text-dark-color);
-}
-
-.envelope {
-  vertical-align: -0.1em;
-}
-
-.smartphone {
-  vertical-align: -0.2em;
+  vertical-align: middle;
 }
 
 .envelope:hover,
