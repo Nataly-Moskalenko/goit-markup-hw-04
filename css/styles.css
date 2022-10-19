@@ -120,7 +120,6 @@ p {
 .header .list {
   display: flex;
   align-items: center;
-  /* text-align: center; */
 }
 
 .logo-header {
@@ -130,7 +129,7 @@ p {
 }
 
 .header .list-item:not(:first-child) {
-  margin-left: 50px;
+  margin-left: 30px;
 }
 
 .nav-item,
@@ -160,10 +159,16 @@ p {
 
 .envelope,
 .smartphone {
-  width: 16px;
-  height: 12px;
-  margin-right: 2px;
+  margin-right: 10px;
   fill: var(--text-dark-color);
+}
+
+.envelope {
+  vertical-align: -0.1em;
+}
+
+.smartphone {
+  vertical-align: -0.2em;
 }
 
 .envelope:hover,
@@ -251,8 +256,7 @@ p {
 .diagram,
 .astronaut {
   background-color: var(--background-gray-color);
-  width: 270px;
-  height: 120px;
+
   padding: 25px 100px;
   margin-bottom: 30px;
   border-radius: 4%;
@@ -304,7 +308,8 @@ p {
   letter-spacing: 0.03em;
 
   border-radius: 0px 0px 4px 4px;
-  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12),
+    0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
 }
 
@@ -345,8 +350,6 @@ p {
 .facebook,
 .linkedin {
   display: block;
-  width: 44px;
-  height: 44px;
   padding: 12px;
 }
 
@@ -398,8 +401,6 @@ p {
 .logo4,
 .logo5,
 .logo6 {
-  width: 170px;
-  height: 92px;
   padding: 16px 32px;
   border: 1px solid var(--icon-color);
   border-radius: 4%;
@@ -532,7 +533,8 @@ p {
 
 .portfolio-button:hover,
 .portfolio-button:focus {
-  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1),
+    0px 1px 2px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
 
   background-color: var(--accent-color);
@@ -543,12 +545,6 @@ p {
   display: flex;
   flex-wrap: wrap;
   gap: 30px;
-
-  /* display: grid;
-   grid-template-columns: repeat(3, 1fr);
-   grid-template-rows: repeat(3, 1fr);
-   grid-column-gap: 30px;
-   grid-row-gap: 30px; */
 }
 
 .project {
@@ -559,6 +555,13 @@ p {
 
 .project img {
   width: 100%;
+}
+
+.project:hover,
+.project:focus {
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12),
+    0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
 .project-description {
