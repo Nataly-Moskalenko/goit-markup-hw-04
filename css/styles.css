@@ -341,7 +341,7 @@ p {
   margin-right: 10px;
 }
 
-.card-thumb {
+.card-link {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -350,17 +350,17 @@ p {
   border-radius: 50%;
 }
 
-.card-thumb .social {
+.card-link .social {
   fill: var(--icon-color);
 }
 
-.card-thumb:hover,
-.card-thumb:focus {
+.card-link:hover,
+.card-link:focus {
   background-color: var(--accent-color);
 }
 
-.card-thumb:hover .social,
-.card-thumb:focus .social {
+.card-link:hover .social,
+.card-link:focus .social {
   fill: var(--white-color);
 }
 
@@ -383,7 +383,7 @@ p {
   margin-right: 30px;
 }
 
-.client-thumb {
+.client-link {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -397,13 +397,13 @@ p {
   fill: var(--icon-color)
 }
 
-.client-thumb:hover,
-.client-thumb:focus {
+.client-link:hover,
+.client-link:focus {
   border: 1px solid var(--accent-color);
 }
 
-.client-thumb:hover .client-logo,
-.client-thumb:focus .client-logo {
+.client-link:hover .client-logo,
+.client-link:focus .client-logo {
   fill: var(--accent-color);
 }
 
@@ -479,7 +479,7 @@ p {
   margin-right: 10px;
 }
 
-.footer-thumb {
+.footer-link {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -490,12 +490,12 @@ p {
   background-color: var(--icon-footer);
 }
 
-.footer-thumb .social {
+.footer-link .social {
   fill: var(--white-color);
 }
 
-.footer-thumb:hover,
-.footer-thumb:focus {
+.footer-link:hover,
+.footer-link:focus {
   background-color: var(--accent-color);
 }
 
